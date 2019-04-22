@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import javax.persistence.Id;
 import java.util.Date;
 
 /**
@@ -18,6 +19,7 @@ public class Emp {
     /**
      * 员工id
      */
+    @Id
     private String id;
     /**
      * 员工姓名
