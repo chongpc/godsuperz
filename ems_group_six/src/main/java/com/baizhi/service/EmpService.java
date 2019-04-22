@@ -1,6 +1,6 @@
 package com.baizhi.service;
 
-import com.baizhi.entiry.Emp;
+import com.baizhi.entity.Emp;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.baizhi.controller;
 
-import com.baizhi.entiry.Emp;
+import com.baizhi.entity.Emp;
 import com.baizhi.service.EmpService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
