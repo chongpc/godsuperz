@@ -16,6 +16,7 @@ public class EmpController {
     private EmpService empService;
     @RequestMapping("/selectAllEmp")
     public String selectAllEmp(Model model){
+        System.out.println("组长真帅");
         List<Emp> emps = empService.selectAll();
         model.addAttribute("emps",emps);
         return "emplist";
