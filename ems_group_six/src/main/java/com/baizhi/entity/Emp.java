@@ -1,4 +1,4 @@
-package com.baizhi.entiry;
+package com.baizhi.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
